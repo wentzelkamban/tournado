@@ -1,6 +1,7 @@
 import React from 'react';
-import Text from "../../components/Text";
-import Input from "../../components/Input";
+import Text from '../../components/Text';
+import Input from '../../components/Input';
+import Button from '../../components/Button';
 
 const Home: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
       </Text>
       <Input label={'Nafn á móti'} id={'tournament-name'} />
       <Input label={'Nafn liðs'} id={'team-name'} />
+      <Button label={'Byrja'} />
     </>
   );
 };
